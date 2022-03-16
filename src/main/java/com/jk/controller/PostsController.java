@@ -38,7 +38,7 @@ public class PostsController {
 
 	}
 
-	@RequestMapping("https://empappjk.herokuapp.com/GET/employee")
+	@RequestMapping("/GET/employee")
 	public List<Post> getPosts() {
 
 		return service.getPosts();
